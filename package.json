@@ -1,0 +1,33 @@
+{
+  "name": "@code-dome/cdk-parameter-store",
+  "version": "1.64.0",
+  "description": "CDK helper class that retrieves and stores values from AWS SSM Parameter Store and AWS Secrets Manager",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://whtlnv@github.com/bot-dome/cdk-parameter-store.git"
+  },
+  "keywords": [
+    "CDK",
+    "SSM",
+    "AWS",
+    "ParameterStore",
+    "SecretsManager"
+  ],
+  "author": "Francisco Catalá",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bot-dome/cdk-parameter-store/issues"
+  },
+  "homepage": "https://github.com/bot-dome/cdk-parameter-store#readme",
+  "dependencies": {
+    "@aws-cdk/aws-ssm": "^1.64.0",
+    "@aws-cdk/core": "^1.64.0"
+  },
+  "devDependencies": {
+    "jest": "^26.4.2"
+  }
+}
